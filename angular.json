@@ -30,8 +30,12 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+              "node_modules/ng2-date-picker/lib/date-picker.css",
+              "node_modules/remixicon/fonts/remixicon.css",
+              "node_modules/@angular/cdk/overlay-prebuilt.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +96,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []
