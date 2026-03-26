@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  classApplied = false;
+
+  toggleClass() {
+    this.classApplied = !this.classApplied;
+  }
+
 }
