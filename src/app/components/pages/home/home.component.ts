@@ -6,6 +6,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule } from '@angular/material/core';
+import { HotelListingComponent } from '../hotel-listing/hotel-listing.component';
 
 @Component({
   selector: 'app-home',
@@ -16,7 +17,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatDatepickerModule,
     MatFormFieldModule,
     MatInputModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    HotelListingComponent
   ],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
